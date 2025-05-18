@@ -34,12 +34,13 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/foto_yami_2.jpg');">
-            <div class="container d-flex align-items-center flex-column">
+        <header class="masthead bg-primary text-white text-center d-flex justify-content-end" 
+        style="min-height: 100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/foto_yami_2.jpg'); background-size: cover; background-position: center;">
+            <div class="container align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Yamila Timmer</h1>
+                <h1 class="masthead-heading text-uppercase mb-0 fs-1">Yamila Timmer</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -47,7 +48,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Bioinformatics Enthusiast - Data Visualization - Honours Student</p>
+                <p class="masthead-subheading font-weight-light mb-0 fs-4">Bioinformatics Enthusiast - Data Visualization - Honours Student</p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -234,11 +235,11 @@
                                     <p class="mb-4">
                                         <b>When:</b> 2024, April-September & 2025, February-April<br><br>
 
-                                        In assignment for the Hanze East Africa Hub, me and 3 other honours students have collaborated with the <a href="https://uoeld.ac.ke/"> University of Eldoret (Kenya)</a> and <a href="https://acfc.co.ke/">Agro Chemical & Food Company Limited (ACFC)</a>. This was a first time collaboration between the East Africa Hub and the Honours Department of Life Science & Technology. Together we looked at a problem that ACFC is facing, ACFC is a factory that produces ethanol from sugar molasses (waste product of sugar refinery). This process however results in 1.2 million liters of wastewater daily being released into the Nyando River, while this water does not meet the Kenyan standards due to high COD and BOD. Together with my group, we made it our goal to make the problem clearer, to gain a better understanding of what needed to be solved. We performed literature research, consulted experts in the field, analyzed water samples of different steps of the water purification process at ACFC, and summarized the results in an extensive document. 
+                                        In assignment for the <a href=https://hanzeeastafricahub.nl/>Hanze East Africa Hub</a>, me and 3 other honours students have collaborated with the <a href="https://uoeld.ac.ke/"> University of Eldoret (Kenya)</a> and <a href="https://acfc.co.ke/">Agro Chemical & Food Company Limited (ACFC)</a>. This was a first time collaboration between the East Africa Hub and the Honours Department of Life Science & Technology. Together we looked at a problem that ACFC is facing, ACFC is a factory that produces ethanol from sugar molasses (waste product of sugar refinery). This process however results in <b>1.2 million liters of wastewater daily</b> being released into the Nyando River, while this water does not meet the Kenyan standards due to high COD and BOD. Together with my group, we made it our goal to make the problem clearer, to gain a better understanding of what needed to be solved. We performed literature research, consulted experts in the field, analyzed water samples of different steps of the water purification process at ACFC, and summarized the results in an extensive document. 
                                     <br><br>
-                                    After writing the report, I one year later with a new group wrote a metagenomics pipeline for taxonomical and functional analysis of 16S data in .FASTQ format. Using this pipeline we were able to analyze samples from different steps in the wastewater purification process and gain insights into present microorganisms in the samples and on values such as the beta diversity. We wrote an <a href = https://github.com/YamilaTimmer/metagenomics-ACFC/blob/main/publication/Final_Edit/Results_Materials_and_methods.pdf>article</a> on our findings and made a <a href="img/wastewater_poster.png" target="_blank">poster</a>. The code for the pipeline can be found <a href=https://github.com/YamilaTimmer/metagenomics-ACFC/tree/main>here</a>.
+                                    After writing the report, I one year later with a new group wrote a metagenomics pipeline for <b>taxonomical and functional analysis of 16S data </b> in .FASTQ format. Using this pipeline we were able to analyze samples from different steps in the wastewater purification process and gain insights into present microorganisms in the samples and on values such as the beta diversity. We wrote an <a href = https://github.com/YamilaTimmer/metagenomics-ACFC/blob/main/publication/Final_Edit/Results_Materials_and_methods.pdf>article</a> on our findings and made a <a href="img/wastewater_poster.png" target="_blank">poster</a>. The code for the pipeline can be found <a href=https://github.com/YamilaTimmer/metagenomics-ACFC/tree/main/workflow>here</a>.
                                     </p>
-                                    <img class="img-fluid rounded mb-5" src="img/review.PNG" alt="..." />https://github.com/YamilaTimmer/metagenomics-ACFC/blob/main/publication/Final_Edit/Results_Materials_and_methods.pdf
+                                    <img class="img-fluid rounded mb-5" src="img/review.PNG" alt="..." />
                                     
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -274,7 +275,7 @@
                                     <p class="mb-4">
                                         <b>When:</b> 2025, February-June<br><br>
 
- In collaboration with <a href=https://www.hanze.nl/en/research/centres/research-centre-biobased-economy>Research Centre Biobased Economy</a>, under the guidance of Wynand Alkema, professor of Data Sciences for Life Sciences & Health, together with another bio-informatics student, we have developed an interactive data dashboard, visualizing <a href= https://depmap.org/portal>DepMap data</a>. This data contains large amounts of gene expression data (17000+ genes) in patients with various types of cancer (80+ cancer types). <br><br>This data dashboard allows people who are not familiar with data analysis or data visualization themselves, to visualize DepMap data. Examples of visualizations include; bar plots, box plots, violin plots, heatmaps, and correlation plots. The app has 3 different use cases, which include exploring gene expression (across cell lines/cancer types), gene clustering which allows for genes with similar expression profiles to the chosen gene to be found, and a use case that compares expressions of entire pathways across cancer types. The app also allows users to filter metadata (e.g. sex, ethnic background, and age group).  
+ In collaboration with <a href=https://www.hanze.nl/en/research/centres/research-centre-biobased-economy>Research Centre Biobased Economy</a>, under the guidance of Wynand Alkema, professor of Data Sciences for Life Sciences & Health, together with another bio-informatics student, we have developed an <b>interactive data dashboard</b>, visualizing <a href= https://depmap.org/portal>DepMap data</a>. This data contains large amounts of gene expression data (17000+ genes) in patients with various types of cancer (80+ cancer types). <br><br>This data dashboard allows people who are not familiar with data analysis or data visualization themselves, to visualize DepMap data. Examples of visualizations include; bar plots, box plots, violin plots, heatmaps, and correlation plots. The app has 3 different use cases, which include exploring gene expression (across cell lines/cancer types), gene clustering which allows for genes with similar expression profiles to the chosen gene to be found, and a use case that compares expressions of entire pathways across cancer types. The app also allows users to filter metadata (e.g. sex, ethnic background, and age group).  
 
  <br><br>This project is something I did next to my regular curriculum, for my Honours Programme to deepen my knowledge of application design and data handling, under the guidance of a professor of Data Science. 
 
